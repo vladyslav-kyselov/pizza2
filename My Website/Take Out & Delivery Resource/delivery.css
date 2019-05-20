@@ -1,0 +1,347 @@
+@font-face {
+   font-family: 'Tahoma';
+   src: url('Tahoma.ttf') format('truetype');
+}
+
+article, aside, figure, figcaption, footer, hgroup, header, 
+section, nav {
+   display: block;
+}
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	line-height: 1.5em;
+	width: 100%;
+	max-width: 1024px;
+	min-width: 768px;
+	font-family: Tahoma, sans-serif;
+	font-size: 10pt;
+	background: url(background.jpg) scroll top left repeat;
+	-webkit-background-size: 450px 450px;  
+	-moz-background-size: 450px 450px;  
+	-o-background-size: 450px 450px;  
+	background-size: 450px 450px;  
+}
+
+header{
+	width: 80%;
+	margin: 0px auto;
+}
+
+header h1{
+	width: 33%;
+	margin-left: 7%;
+}
+
+header h1 img{
+	width: 100%;
+}
+
+header h4 {
+	display: block;
+	width: 40%;
+	float: right;
+	margin-top: -75px;
+	margin-right: 5%;
+	text-align: right;
+	line-height: 1em;
+	font-weight: bold;
+	font-size: 1.05em;
+	color: rgb(0, 0, 205);
+}
+
+header h4 span{
+	font-size: 1.2em;
+}
+
+header nav {
+	width: 100%;
+	margin: 0px auto 0px;
+}
+
+header nav li {
+	display: block;
+	float: left;
+	width: 7%;
+	margin-left: 2%;
+	margin-bottom: 2px;
+	font-size: 1.3em;
+}
+
+header nav li:nth-of-type(2){
+	width: 9%;
+}
+
+header nav li:nth-of-type(4){
+	width: 13%;
+}
+
+header nav li:nth-of-type(5){
+	width: 8%;
+}
+
+header nav li:nth-of-type(6){
+	width: 10%;
+}
+
+header nav li:nth-of-type(7){
+	width: 19%;
+}
+
+header nav li a {
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 0.8em;
+	color: rgb(255, 255, 224);	
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	background-color: rgb(238, 92, 66);
+}
+
+header nav li a:hover{
+	opacity: 0.7;
+}
+
+div.leftside{
+	display: block;
+	float: left;
+	width: 16%;
+}
+
+div.leftside img{
+	border: none;
+}
+
+div.leftside img#linkhome{
+	width: 90%;
+}
+
+div.leftside img#locator{
+	width: 90%;
+	margin-top: 50px;
+}
+
+div.leftside img#order{
+	width: 70%;
+	margin-top: 100px;
+	margin-left: 15px;
+}
+
+div.rightside{
+	display: block;
+	float: right;
+	width: 14%;
+}
+
+div.rightside img{
+	margin-left: 15px;
+	border: none;
+}
+
+section{
+	margin-top: 85px;
+	margin-left: 16%;
+	width: 70%;
+	height: 835px;
+	background: url(section.jpg) scroll top left no-repeat;
+	-webkit-background-size: cover;  
+	-moz-background-size: cover;  
+	-o-background-size: cover;  
+	background-size: cover;
+	border: 2px black solid;
+	font-weight: bold;
+}
+
+p
+{
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
+
+fieldset#custInfo
+{
+	float: left;
+	margin-top: 10px;
+}
+
+fieldset#buildPizza
+{
+	float: left;
+	width: 40%;
+	margin-left: 4%;
+}
+
+fieldset#specialty
+{
+	float: right;
+	width: 40%;
+	margin-right: 3%;
+	margin-top: -16px;
+}
+
+legend
+{
+	font-size: 0.9em;
+}
+
+label
+{
+	display: block;
+	font-size: 0.8em;
+	float: left;
+	clear: left;
+	width: 40%;
+	margin: 5px 0px 5px 0px;
+	padding-left: 5px;
+}
+
+input
+{
+	display: block;
+	float: left;
+	width: 50%;
+	margin: 5px 0px 5px 0px;
+}
+
+textarea
+{
+	display: block;
+	float: left;
+	width: 50%;
+	margin: 5px 0px 5px 0px;
+	height: 60px;
+}
+
+textarea#instructions{
+	height: 15px;
+	float: right;
+}
+
+form img
+{
+	display: block;
+	float: left;
+	margin: 5px 0px 5px 0px;
+}
+
+input#delTime
+{
+	width: 150px;
+}
+
+img#sizeimage
+{
+	margin-left: 40%;
+}
+
+#size
+{
+	width: 200px;
+	background-color: transparent;
+}
+
+select
+{
+	float: left;
+	font-size: 0.8em;
+	margin: 5px 0px 5px 0px;
+	width: 150px;
+}
+
+#quantity
+{
+	width: 40px;
+	margin-top: 0px;
+}
+
+fieldset.optionGroup
+{
+	border: none;
+	background-color: transparent;
+}
+
+input[type="radio"]
+{
+	width: 30px;
+}
+
+input[type="checkbox"]
+{
+	width: 20px;
+}
+
+h4
+{
+	margin: 265px auto 5px 35px;
+}
+
+input[type="reset"]
+{
+	position: absolute;
+	width: 8%;
+	float: none;
+	clear: left;
+	margin: 800px 8%;
+}
+
+input[type="submit"]
+{
+	position: absolute;
+	width: 8%;
+	float: none;
+	clear: left;
+	margin: 800px -11.5%;
+}
+
+input:focus, select:focus, textarea:focus
+{
+	background-color: rgb(220, 255, 220);
+}
+
+input:focus:valid
+{
+	background: rgb(220, 255, 220) url(okay.png) bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+input:focus:invalid
+{
+	background: rgb(255, 232, 233) url(warning.png) bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+section img#main{
+	float: right;
+	width: 46%;
+	margin: -15px 17px -18px 0px;
+}
+
+section aside{
+	display: block;
+	float: right;
+	margin-right: 2%;
+}
+
+img#caesar
+{
+	margin: 11px 0px -5px 30px;
+}
+
+footer address{
+	text-align: center;
+	font-style: normal;
+}

@@ -1,0 +1,229 @@
+@font-face {
+   font-family: 'Tahoma';
+   src: url('Tahoma.ttf') format('truetype');
+}
+
+article, aside, figure, figcaption, footer, hgroup, header, 
+section, nav {
+   display: block;
+}
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	line-height: 1.5em;
+	width: 100%;
+	max-width: 1024px;
+	min-width: 768px;
+	font-family: Tahoma, sans-serif;
+	font-size: 10pt;
+	background: url(background.jpg) scroll top left repeat;
+	-webkit-background-size: 450px 450px;
+	-moz-background-size: 450px 450px;
+	-o-background-size: 450px 450px;
+	background-size: 450px 450px;  
+}
+
+header{
+	width: 80%;
+	margin: 0px auto;
+}
+
+header h1{
+	width: 33%;
+	margin-left: 7%;
+}
+
+header h1 img{
+	width: 100%;
+}
+
+header h4 {
+	display: block;
+	width: 40%;
+	float: right;
+	margin-top: -75px;
+	margin-right: 5%;
+	text-align: right;
+	line-height: 1em;
+	font-weight: bold;
+	font-size: 1.05em;
+	color: rgb(0, 0, 205);
+}
+
+header h4 span{
+	font-size: 1.2em;
+}
+
+header nav {
+	width: 100%;
+	margin: 0px auto 0px;
+}
+
+header nav li {
+	display: block;
+	float: left;
+	width: 7%;
+	margin-left: 2%;
+	margin-bottom: 2px;
+	font-size: 1.3em;
+}
+
+header nav li:nth-of-type(2){
+	width: 9%;
+}
+
+header nav li:nth-of-type(4){
+	width: 13%;
+}
+
+header nav li:nth-of-type(5){
+	width: 8%;
+}
+
+header nav li:nth-of-type(6){
+	width: 10%;
+}
+
+header nav li:nth-of-type(7){
+	width: 19%;
+}
+
+header nav li a {
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 0.8em;
+	color: rgb(255, 255, 224);	
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	background-color: rgb(238, 92, 66);
+}
+
+header nav li a:hover{
+	opacity: 0.7;
+}
+
+div.leftside{
+	display: block;
+	float: left;
+	width: 16%;
+}
+
+div.leftside img{
+	border: none;
+}
+
+div.leftside img#linkhome{
+	width: 90%;
+}
+
+div.leftside img#locator{
+	width: 90%;
+	margin-top: 50px;
+}
+
+div.leftside img#order{
+	width: 70%;
+	margin-top: 100px;
+	margin-left: 15px;
+}
+
+div.rightside{
+	display: block;
+	float: right;
+	width: 14%;
+}
+
+div.rightside img{
+	margin-left: 15px;
+	border: none;
+}
+
+section{
+	margin-top: 85px;
+	margin-left: 16%;
+	width: 70%;
+	border: 1px black solid;
+	background: rgb(238, 197, 145);
+	background: -o-linear-gradient(left, rgb(238, 197, 145), rgb(255, 250, 205));
+	background: -ms-linear-gradient(left, rgb(238, 197, 145), rgb(255, 250, 205));
+	background: -moz-linear-gradient(left, rgb(238, 197, 145), rgb(255, 250, 205));
+	background: -webkit-linear-gradient(left, rgb(238, 197, 145), rgb(255, 250, 205));
+	background: linear-gradient(left, rgb(238, 197, 145), rgb(255, 250, 205));
+}
+
+section img#cheese{
+	width: 50%;
+	margin: 2em 0px 0px 2em;
+	height: 350px;
+	border: black 1px solid;
+}
+
+section aside{
+	display: block;
+	float: right;
+	margin-right: 3%;
+	width: 40%;
+}
+
+section aside p{
+	font-size: 1.3em;
+	color: rgb(165, 42, 42);
+}
+
+section aside p#title{
+	margin-top: 27px;
+	padding-top: 16px;
+	padding-bottom: 28px;
+	text-align: center;
+	color: rgb(255, 255, 200);
+	font-size: 2.2em;
+	font-weight: 900;
+	background: rgb(139, 71, 38);
+	background: -o-linear-gradient(top, rgb(139, 71, 38) 50%, rgb(255, 231, 186));
+	background: -ms-linear-gradient(top, rgb(139, 71, 38) 50%, rgb(255, 231, 186));
+	background: -moz-linear-gradient(top, rgb(139, 71, 38) 50%, rgb(255, 231, 186));
+	background: -webkit-linear-gradient(top, rgb(139, 71, 38) 50%, rgb(255, 231, 186));
+	background: linear-gradient(top, rgb(139, 71, 38) 50%, rgb(255, 231, 186));
+}
+
+section aside p#price{
+	text-decoration: underline;
+}
+
+section aside p#price span{
+	font-size: 1.2em;
+}
+
+section aside p#more{
+	font-style: italic;
+	margin-top: 100px;
+}
+
+section img#arrow{
+	float:right;
+	width: 35%;
+	margin-top: -56px;
+}
+
+section article{
+	width: 100%;
+	margin-top: 13px;
+	padding: 1px 0px 3px;
+	font-size: 1.3em;
+	color: rgb(165, 42, 42);
+	text-align: center;
+	background: rgb(255, 246, 143);
+	border-top: 2px black dotted;
+}
+
+footer address{
+	text-align: center;
+	padding-left: 16%;
+	font-style: normal;
+}

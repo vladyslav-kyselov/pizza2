@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Little Caesars Order</title>
+		<meta charset="UTF-8" />
+		<meta name="DESCRIPTION" content="For online customer service visit the Little Caesars Pizza of Canada web site."/>
+		<meta name="KEYWORDS" content="customer service, customer, little caesar, pizza, ceasar, ceasars"/>
+		<meta name="RATING" content="General"/>
+		<meta name="ROBOTS" content="index, follow"/>
+		<meta name="REVISIT-AFTER" content="1 Week"/>
+		
+		<link href="Take Out & Delivery Resource/delivery.css" rel="stylesheet" />
+		<base href="Take Out & Delivery.html" />
+		<script src="Take Out & Delivery Resource/modernizr-1.5.js"></script>
+		<script src="Take Out & Delivery Resource/formsubmit.js"></script>
+	</head>
+	
+	<body>
+	  <header>
+		 <hgroup>
+			<h1><img src="Take Out & Delivery Resource/LCPP_01.png" alt="Little Caesars Logo" /></h1>
+			<h4><span>Contact Us </span><br/> #2-1380 Summit Dr. <br/>Kamloops, BC V2C 1T8 <br/>(250) 314-6665</h4>
+		 </hgroup>
+
+		 <nav>
+			<ul>
+			   <li><a href="../Home Page.html">Home</a></li>
+			   <li><a href="Location Page.html">Location</a></li>
+			   <li><a href="Pizza Page.html">Pizza</a></li>
+			   <li><a href="Special Items.html">Special Items</a></li>
+			   <li><a href="Combo Page.html">Combo</a></li>
+			   <li><a href="Nutrition Page.html">Nutrition</a></li>
+			   <li><a href="Take Out & Delivery.html">Take Out & Delivery</a></li>
+			   <li><a href="News Page.html">News</a></li>
+			</ul>
+		 </nav>
+	  </header>
+	  
+	  <div class="leftside">
+		  <img id="linkhome" src="Home Page Resource/annv.png" alt="linkhome" usemap="#linkHome"/>
+		  <img id="locator" src="Home Page Resource/locator.png" alt="locator" usemap="#linkLocator"/>
+		  <img id="order" src="Pizza Page Resource/order.gif" alt="order" usemap="#linkOrder"/>
+		  
+		  <map name="linkHome">
+            <area shape="rect" coords="0,0,130,120" 
+                  href="../Home Page.html" alt="home page" />
+		  </map>
+		  
+		  <map name="linkLocator">
+            <area shape="rect" coords="0,0,130,120" 
+                  href="Location Page.html" alt="home page" />
+		  </map>
+		  
+		  <map name="linkOrder">
+            <area shape="rect" coords="0,0,130,120" 
+                  href="Take out & Delivery.html" alt="home page" />
+		  </map>
+	  </div>
+	  
+	  <div class="rightside">
+		  <img id="menu" src="Pizza Page Resource/menu.png" alt="menu" usemap="#menu"/>
+		  
+		  <map name="menu">
+			  <area shape="rect" coords="0,0,142,65"
+					href="Pizza Page.html" alt="pizza" />  
+			  <area shape="rect" coords="0,65,142,123"
+					href="Pizza Page Resource/Pizza Page1.html" alt="pizza" />
+			  <area shape="rect" coords="0,123,142,180"
+					href="Pizza Page Resource/Pizza Page2.html" alt="pizza" />
+			  <area shape="rect" coords="0,180,142,235"
+					href="Pizza Page Resource/Pizza Page3.html" alt="pizza" />
+			  <area shape="rect" coords="0,235,142,290"
+					href="Pizza Page Resource/Pizza Page4.html" alt="pizza" />
+			  <area shape="rect" coords="0,290,142,345"
+					href="Pizza Page Resource/Pizza Page5.html" alt="pizza" />
+			  <area shape="rect" coords="0,345,142,400"
+					href="Pizza Page Resource/Pizza Page6.html" alt="pizza" />
+			  <area shape="rect" coords="0,345,142,565"
+					href="Special Items.html" alt="pizza" />
+		  </map>		  
+	  </div>
+	  
+	  <section>
+		<form id="pizza" name="pizza" action="http://www.littlecaesars.ca/pizza/products.asp" method="post">
+		
+			<img id="caesar" src="Take Out & Delivery Resource/Delivery Photo.png" alt="Little Ceasars Logo"/>
+			
+		<aside>
+			<fieldset id="custInfo">
+			
+				<legend>Customer Information</legend>			
+				
+				<label for="custname">Name *</label>
+				<input name="custname" id="custname" placeholder="First and Last Name" required="required" />
+				
+				
+				<label for="address">Delivery Address *</label>
+				<textarea name="address" id="address" required="required"></textarea>
+				
+				
+				<label for="phone">Phone *</label>
+				<input name="phone" id="phone" placeholder="(nnn)nnn-nnnn" required="required" 
+					pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+					
+				
+				<label for="delTime">Delivery Time<br />(leave blank for immediate delivery)</label>
+				<input name="delTime" id="delTime" placeholder="hh:mm AM/PM"
+					pattern="^([0-9]|1[012]):[0-5][0-9]\s?((a|p)m|(A|P)M)$" />
+			
+			</fieldset>
+			
+		<input type="submit" value="Apply Now" />
+		<input type="reset" value="Cancel" />
+		
+		</aside>
+		</form>
+		<img id="main" src="Take Out & Delivery Resource/Delivery Car.png" alt="Little Ceasars Logo"/>
+		
+		<h4>Required values are marked by an asterisk (*)<br />&nbsp;&nbsp;(call for quantities larger than10 pizzas)</h4>
+	  
+	  <form id="pizza" name="pizza" action="http://www.redballpizza.com/cgi-bin/builpizza" method="post">
+		
+		<fieldset id="buildPizza">
+			<legend>Build Your Own Pizza</legend>
+		
+			<fieldset id="pizzas">
+				<legend>Pizzas</legend>
+			
+				<label for="location">Location</label>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10005;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;
+					&nbsp;&nbsp;Quantity</p>
+				
+			
+				<label>Original Round Pizza</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="original round pizza" value="no" checked="checked" />
+					<input type="radio" name="original round pizza" value="yes" />
+					<input id="quantity" name="original round pizza" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>Canadian Pizza</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="canadian pizza" value="no" checked="checked" />
+					<input type="radio" name="canadian pizza" value="yes" />
+					<input id="quantity" name="canadian pizza" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>Superme Pizza</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="superme pizza" value="no" checked="checked" />
+					<input type="radio" name="superme pizza" value="yes" />
+					<input id="quantity" name="superme pizza" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>3 Meat Treat&reg; Pizza</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="3 meat treat pizza" value="no" checked="checked" />
+					<input type="radio" name="3 meat treat pizza" value="yes" />
+					<input id="quantity" name="3 meat treat pizza" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>Hawaian&reg; Pizza</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="hawaian pizza" value="no" checked="checked" />
+					<input type="radio" name="hawaian pizza" value="yes" />
+					<input id="quantity" name="hawaian pizza" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>Veggie Pizza</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="veggie pizza" value="no" checked="checked" />
+					<input type="radio" name="veggie pizza" value="yes" />
+					<input id="quantity" name="veggie pizza" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>Cheese Pizza</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="cheese pizza" value="no" checked="checked" />
+					<input type="radio" name="cheese pizza" value="yes" />
+					<input id="quantity" name="cheese pizza" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>Sausage Pizza</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="sausage pizza" value="no" checked="checked" />
+					<input type="radio" name="sausage pizza" value="yes" />
+					<input id="quantity" name="sausage pizza" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>BBQ Chicken Pizza</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="bbq chicken pizza" value="no" checked="checked" />
+					<input type="radio" name="bbq chicken pizza" value="yes" />
+					<input id="quantity" name="bbq chicken pizza" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+			</fieldset>
+						
+		</fieldset>
+		
+		<fieldset id="specialty">
+				<legend>Specialty Items</legend>			
+				
+				<label for="location">Location</label>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10005;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;
+					&nbsp;&nbsp;Quantity</p>
+				
+				<label>Crazy Bread&reg;</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="crazy bread" value="no" checked="checked" />
+					<input type="radio" name="crazy bread" value="yes" />
+					<input id="quantity" name="crazy bread" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>Crazy Sauce&reg;</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="crazy sauce" value="no" checked="checked" />
+					<input type="radio" name="crazy sauce" value="yes" />
+					<input id="quantity" name="crazy sauce" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>Italian Cheese Bread&reg;</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="italian cheese bread" value="no" checked="checked" />
+					<input type="radio" name="italian cheese bread" value="yes" />
+					<input id="quantity" name="italian cheese bread" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>Stuffed Crazy Bread&reg;</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="stuffed crazy bread" value="no" checked="checked" />
+					<input type="radio" name="stuffed crazy bread" value="yes" />
+					<input id="quantity" name="stuffed crazy bread" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>Chicken Wings</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="chicken wings" value="no" checked="checked" />
+					<input type="radio" name="chicken wings" value="yes" />
+					<input id="quantity" name="chicken wings" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+				
+				<label>Dipping Sauces</label>
+				<fieldset class="optionGroup">
+					<input type="radio" name="dipping sauces" value="no" checked="checked" />
+					<input type="radio" name="dipping sauces" value="yes" />
+					<input id="quantity" name="dipping sauces" type="number" value="1" min="1" max="10" step="1" />
+				</fieldset>
+			
+				<label for="instructions">Specical Instructions</label>
+				<textarea name="instructions" id="instructions"></textarea>
+				
+			</fieldset>
+		
+	  </form>
+	  
+	  </section>
+	  
+	  <footer>
+		  <address>
+			 The Little Caesars <sup>&reg;</sup> Pizza name, logos, and related marks are trademarks of
+			 Little Caesar of Canada Inc. <br/><sup>&reg;</sup>2003 - 2012 Little Caesar of Canada, ULC.
+			 All rights reserved.
+		  </address>
+     </footer>
+	</body>	 
+</html>
